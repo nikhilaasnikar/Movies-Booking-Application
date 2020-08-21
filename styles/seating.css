@@ -1,0 +1,52 @@
+/* Name-Nikhil Aasnikar
+   ID=10360623
+   
+*/
+
+.seat {
+    margin:5px;
+    display: inline-block;
+    border: 3px solid black;
+    width:47px;
+    text-align: center;
+    font-size: 0.8em;
+    width:6%;
+    cursor: pointer;
+}
+.seat:hover {
+    background:#ead4af;
+}
+
+.selected {
+    background:#d5a148;
+}
+.selected:hover {
+    background:#d5a148;
+}
+
+.userSelected {
+    margin:5px 10px;
+}
+
+#screen {
+    border-bottom: 5px solid black;
+    width:60%;
+    padding-top: 60px;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 20px;      
+}
+
+#seating-plan {
+    width:100%;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+#seating-left, #seating-right {
+    width:45%;
+    margin-top:25px;
+    display:inline-block;
+    padding:20px 0px;
+    background: #f9edd9;
+}

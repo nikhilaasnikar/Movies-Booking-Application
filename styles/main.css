@@ -1,0 +1,58 @@
+/* Name-Nikhil Aasnikar
+   ID=10360623
+   
+*/
+
+#main-container {
+    width:100%;
+
+}
+.banner {
+    width:100%;
+}
+.myNav {
+
+    background: #c9d8f2;
+    background-color: #c9d8f2;
+}
+
+.movieTable {
+    font-size:13px;
+    text-align: left;
+}
+.movieTable tr {
+    border-bottom: 1px solid #eeecec;
+}
+.movieTable tr td{
+padding:12px 0;
+
+}
+
+#tab-content div{
+    padding-top: 45px;
+}
+
+#booking-form input, #booking-form select {
+    margin:0px 0px 8px 0px;
+}
+
+#name-required,
+#email-required,
+#tickets-required {
+    margin-left: 20px;
+    color:red;
+    font-size: 11px;
+    display: none;
+}
+body{
+    background-image: radial-gradient(rgba(255, 255, 255, 0.911),rgba(0, 110, 255, 0.664));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.dummy{
+    float: right;
+}
+head{
+    background-image: url("Cinemat.jpg");
+}
